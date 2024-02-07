@@ -6,6 +6,7 @@ import AboutUs from "./components/AboutUs";
 import Testimonials from "./components/Testimonials";
 import Faq from "./components/Faq";
 import Meet from "./components/Meet";
+import Formc from "./components/Formc";
 
 export default function App() {
   

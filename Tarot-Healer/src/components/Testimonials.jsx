@@ -1,67 +1,66 @@
-import React from 'react'
-import Heading from './Heading'
+import React from "react";
+import Heading from "./Heading";
+import tarot10 from "../assets/tarot10.jpg";
 
 export default function Testimonials() {
   return (
     <>
-    <div className="container bg-slate-800 min-h-screen ">
-        <Heading head="TESTIMONIALS"/>
-        {/* Three Cards */}
-      {/* Horoscope */}
+      <div className="container bg-[#000000]  min-h-screen ">
+        <Heading head="TESTIMONIALS" />
 
-      <div className="pt-10 flex justify-center items-center ">
-        <div className="pt-10 flex space-x-12 mx-20">
-          <div className="w-1/3 px-4 bg-slate-900 h-4/5">
-            <div className="pt-2 text-white text-justify">
-              <div className="mt-5 text-base">
-                <p>
-                  A HOROSCOPE DEPENDS ON THE INDIVIDUAL'S SUN SIGN, MOON SIGN,
-                  AND RISING SIGN (ASCENDANT), EACH ASSOCIATED WITH SPECIFIC
-                  PERSONALITY TRAITS. PLANETARY POSITIONS, INCLUDING MERCURY,
-                  VENUS, MARS, JUPITER SATURN, AND OTHERS. IT'S IMPORTANT TO
-                  NOTE THAT ASTROLOGY IS NOT SCIENTIFICALLY VALIDATED, AND
-                  HOROSCOPES ARE OFTEN VIEWED FOR ENTERTAINMENT O PERSONAL
-                  REFLECTION. BELIEFS IN THEIR ACCURACY VARY WIDELY.
-                </p>
-              </div>
+        {/* 1*/}
+        <div className="pt-10 flex">
+          <div className="flex flex-row space-x-12 mx-20">
+            <div className="bg-no-repeat bg-cover w-full  h-full px-4" style={{ backgroundImage: `url(${tarot10})` }}  loading= "lazy">
              
-            </div>
-          </div>
-      {/* Energy Reading */}
-      <div className="w-1/3 bg-slate-900">
-            <div className="pt-2 px-4 text-white text-justify">
-              
-              <div className="mt-5 text-base">
-                <p>
-                  ENERGY READING IN TAROT INVOLVES A HOLISTIC APPROACH TO
-                  INTERPRETING THE ENERGIES SURROUNDING AN INDIVIDUAL OR A
-                  SITUATION, OFTEN GOING BEYOND THE TRADITIONAL CARD MEANINGS.
-                  IN AN ENERGY READING, A TAROT READER FOCUSES ON THE SUBTLE
-                  ENERGIES, VIBRATIONS, AND INTUITIVE IMPRESSIONS THEY PERCEIVE
-                  FROM THE CARDS, THE CLIENT OR THE OVERALL ATMOSPHERE.
-                </p>
-              </div>
+                <div className="pt-2 text-white text-justify ">
+                  <div className="mt-5 text-base">
+                    <p>
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Maxime consequatur quae dolorem laborum. Voluptas, a
+                      delectus? Nihil sit amet harum a totam inventore, aliquid
+                      quasi exercitationem rem at cum eaque fugit vero.
+                    </p>
+                  </div>
+                </div>
               
             </div>
-          </div>
-      {/* Chi Healing */}
-      <div className="w-1/3 bg-slate-900">
-            <div className="pt-2 px-4 text-white text-justify">
-              
-              <div className="mt-5 text-base">
-                <p>
-                  CHI HEALING, OFTEN ASSOCIATED WITH PRACTICES LIKE QIGONG OR
-                  TRADITIONAL CHINESE MEDICINE, INVOLVES BALANCING AND ENHANCING
-                  THE FLOW OF LIFE FORCE ENERGY (CHI OR QI) WITHIN THE BODY TO
-                  PROMOTE WELL-BEING
-                </p>
+            {/* 2*/}
+            <div
+              className=" bg-no-repeat  bg-cover  bg-[url('../src/assets/tarot11.jpg')]"  loading= "lazy"
+              style={{ height: "600px" }}
+            >
+              <div className="pt-2 px-4 text-white text-justify">
+                <div className="mt-5 text-base">
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Sint earum incidunt voluptate sunt ducimus fugiat,
+                    necessitatibus repellat voluptas repellendus provident
+                    eveniet quibusdam tenetur eligendi sit pariatur dolorum
+                    consequuntur soluta! Soluta, animi impedit.
+                  </p>
+                </div>
               </div>
-             
+            </div>
+            {/* 3*/}
+            <div
+              className=" bg-no-repeat  bg-cover  bg-[url('../src/assets/tarot12.jpg')]"  loading= "lazy"
+              style={{ height: "600px" }}
+            >
+              <div className="pt-2 px-4 text-white text-justify">
+                <div className="mt-5 text-base">
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Nisi earum alias quas, sed magnam excepturi facilis iure
+                    consequuntur optio perferendis nobis vel impedit tempora
+                    odio mollitia rem libero quod veritatis sit assumenda.
+                  </p>
+                </div>
+              </div>
             </div>
           </div>
         </div>
       </div>
-    </div>
     </>
-  )
+  );
 }

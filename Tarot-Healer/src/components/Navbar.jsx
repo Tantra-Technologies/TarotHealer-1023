@@ -5,7 +5,7 @@ import react from "../assets/react.svg"
 
 export default function Navbar() {
   return (
-    <nav className=" border-gray-200 h-auto">
+    <nav className="pt-4 border-gray-200 h-auto">
       <div className="flex flex-wrap items-center justify-between max-w-screen-xl px-4 mx-auto">
         <a href="#" className="flex items-center">
           <img

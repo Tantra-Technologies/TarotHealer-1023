@@ -7,20 +7,20 @@ export default function WhatWeDo(props) {
   return (
     <>
       {/* What We do */}
-      <div className="container bg-slate-950 min-h-screen">
+      <div className="container bg-[#000000] min-h-screen">
         <Heading head="WHAT WE DO" />
 
         {/* Face Reading */}
         <div className="mt-8 px-2 flex">
           {/* <div
-            className=" "
-            // style={{
-            //     backgroundImage: `url(${tarot8})`,
-            //   backgroundRepeat: "no-repeat",
-            //   backgroundSize: "contain",
-            // }}
+           
+            style={{
+                backgroundImage: `url(${tarot8})`,
+              backgroundRepeat: "no-repeat",
+              backgroundSize: "fill",
+            }}
           > */}
-            <div className="mx-2 w-2/5 bg-slate-900 pt-2 px-4 text-white text-justify h-80 ">
+            <div className="mx-2 w-2/5 bg-[#00000f] pt-2 px-4 text-white text-justify h-80 ">
               <h1 className="text-3xl">01</h1>
               <h1 className="mt-2 text-2xl">FACE READINIG</h1>
               <div className="mt-5 text-base">

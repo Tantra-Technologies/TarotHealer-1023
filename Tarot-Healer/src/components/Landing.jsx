@@ -5,6 +5,7 @@ import AboutUs from "./AboutUs";
 import Testimonials from "./Testimonials";
 import Meet from "./Meet";
 import Faq from "./Faq";
+import tarot1 from "../assets/tarot1_blur.png"
 
 
 export default function Landing() {
@@ -12,15 +13,16 @@ export default function Landing() {
     <>
       <div
         style={{
-          backgroundImage: `url('https://mir-s3-cdn-cf.behance.net/project_modules/fs/5dda8d40378939.577d1c47a5c3e.jpg')`,
+          backgroundImage: `url(${tarot1})`,
           backgroundRepeat: "no-repeat",
           backgroundSize: "cover",
           overflow: "auto",
+          // filter: "blur(8px)",
         }}
-        className="opacity-100 min-h-screen flex flex-col space-y-48"
+        className="min-h-screen flex flex-col space-y-48 bg-fixed"  loading= "lazy"
       >
         <Navbar />
-        <div className="container text-slate-50 ">
+        <div className="container text-slate-50">
           <div className=" text-center">
             <h1 className="text-4xl font-medium">IN PERSON & ONLINE TAROT </h1>
             <h1 className="text-4xl break-after-column font-medium">
